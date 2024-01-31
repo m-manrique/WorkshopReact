@@ -1,0 +1,12 @@
+.cantidadCarrito {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cantidad {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

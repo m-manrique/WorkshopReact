@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+ 
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 40px;
+	width: 80%;
+}
+
+.cardItems {
+	margin-bottom: 20px;
+}

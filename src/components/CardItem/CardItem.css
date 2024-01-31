@@ -1,0 +1,51 @@
+.itemProduct {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;  
+}
+
+.imagenContenedor {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*width: 100%;
+  height: 300px;
+  overflow: hidden;*/
+}
+
+.imagenContenedor img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  border: 1px solid black;
+}
+
+.cardCuerpo p {
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+h4 {
+  padding: 15px;
+}
+
+.descripcion {
+  padding: 20px;
+}
+
+.btn {
+  /* Estilos para el botón */
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #E1E1E1;
+  color: black;
+}

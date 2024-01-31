@@ -1,0 +1,18 @@
+.products-list {
+    margin-left: 10px;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.producto img {
+    width: 100px;
+    height: 100px;
+}
