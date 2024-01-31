@@ -13,7 +13,7 @@ const ShopContainer = () => {
       <div className="text-center">
         <h2>Carrito de Compras</h2>
       </div>
-      <div className="row">
+      <div className="row filaCarrito">
         <div className="col-xs-12 col-sm-8 col-md-8 col-lg-8">
           <Shop />
         </div>

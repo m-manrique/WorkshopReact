@@ -108,12 +108,16 @@ const Checkout = () => {
       <Form onSubmit={onSubmit}>
       <Row className="mb-3">
           <Col sm={12} md={6} lg={6} className="text-center">
-            <Form.Label>Cantidad</Form.Label>
-            <p><strong>{cantidadTotal}</strong></p>
+            <Form.Group controlId="formGridCantidad">
+              <Form.Label>Cantidad</Form.Label>
+              <p><strong>{cantidadTotal}</strong></p>
+            </Form.Group>
           </Col>
           <Col sm={12} md={6} lg={6} className="text-center">
-            <Form.Label>Total a pagar</Form.Label>
-            <p><strong>$ {totalAPagar.toFixed(2)}</strong></p>
+            <Form.Group controlId="formGridTotalPagar">
+              <Form.Label>Total a pagar</Form.Label>
+              <p><strong>$ {totalAPagar.toFixed(2)}</strong></p>
+            </Form.Group>
           </Col>
         </Row>
         <Row className="mb-3">
